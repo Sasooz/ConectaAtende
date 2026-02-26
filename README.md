@@ -226,7 +226,7 @@ Executar em modo Release é obrigatório.
 Clone o repositório:
 
 ```
-git clone https://github.com/seu-usuario/conectaatende-api.git
+git clone https://github.com/Sasooz/ConectaAtende
 ```
 
 Entre na pasta:
