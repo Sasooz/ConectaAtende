@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="BenchmarkDotNet" Version="0.15.8" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\ConectaAtende.Application\ConectaAtende.Application.csproj" />
+		<ProjectReference Include="..\ConectaAtende.Domain\ConectaAtende.Domain.csproj" />
+		<ProjectReference Include="..\ConectaAtende.Infrastructure\ConectaAtende.Infrastructure.csproj" />
+	</ItemGroup>
+
+</Project>
